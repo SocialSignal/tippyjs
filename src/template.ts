@@ -45,6 +45,12 @@ export function setContent(content: HTMLDivElement, props: Props): void {
     } else {
       content.textContent = props.content;
     }
+  } else {
+    (props.content as any).then(function(result: any) { 
+      setContent(content, {
+        content: result,
+      } as any);
+    });
   }
 }
 
