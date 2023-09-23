@@ -1,6 +1,6 @@
 <div align="center">
   <img alt="Tippy.js logo" src="https://github.com/atomiks/tippyjs/raw/master/logo.png" height="117" />
-</div>
+</div> 
 
 <div align="center">
   <h1>Tippy.js</h1>
